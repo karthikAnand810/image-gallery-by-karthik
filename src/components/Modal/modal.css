@@ -1,0 +1,56 @@
+.modalBackground {
+    background-color: rgb(27, 27, 27, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.modalContainer {
+    width: 450px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    animation: ease-in;
+    cursor: pointer;
+}
+
+.image-container img {
+    overflow: hidden;
+    width: 450px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.card-details {
+    margin: 1rem;
+    margin-top: 0.3rem;
+}
+
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.card-title {
+    margin-bottom: 25px;
+}
+
+.card-content {
+    font-size: 12px;
+    margin-left: 5px;
+    text-align: justify;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-left: 5px;
+    color: grey;
+    margin-bottom: 35px;
+}
